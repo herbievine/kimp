@@ -1,0 +1,9 @@
+# IDE
+/.idea
+
+# NODE
+/node_modules
+
+# TESTS
+jest.config.js
+kimp.test.js

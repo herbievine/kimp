@@ -1,0 +1,33 @@
+{
+  "name": "@herbievine/kimp",
+  "version": "0.2.0",
+  "description": "Lightweight v4 UUID (RFC4122 compliant)",
+  "main": "kimp.js",
+  "scripts": {
+    "publish": "npm publish",
+    "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "uuid",
+    "ids"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbievine/kimp.git"
+  },
+  "author": "Herbie Vine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herbievine/kimp/issues"
+  },
+  "homepage": "https://github.com/herbievine/kimp#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "jest-config": "^26.1.0"
+  }
+}
