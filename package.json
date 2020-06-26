@@ -1,5 +1,5 @@
 {
-  "name": "kimp",
+  "name": "@herbievine/kimp",
   "version": "1.0.0",
   "description": "Lightweight ID generator",
   "main": "kimp.js",
