@@ -1,7 +1,7 @@
 {
   "name": "kimp",
-  "version": "0.3.0",
-  "description": "Lightweight v4 UUID (RFC4122 compliant)",
+  "version": "1.0.0",
+  "description": "Lightweight ID generator",
   "main": "kimp.js",
   "scripts": {
     "publish": "npm publish",
@@ -12,7 +12,10 @@
   },
   "keywords": [
     "uuid",
-    "ids"
+    "ids",
+    "id_generator",
+    "keys",
+    "crypto"
   ],
   "repository": {
     "type": "git",
@@ -29,5 +32,6 @@
     "babel-jest": "^26.1.0",
     "jest": "^26.1.0",
     "jest-config": "^26.1.0"
-  }
+  },
+  "dependencies": {}
 }

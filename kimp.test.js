@@ -40,6 +40,11 @@ describe('Testing Hash', () => {
         expect(kimp.hash().length).toBe(40);
         expect(kimp.hash(50).length).toBe(50);
     });
+
+    test ('Check if unique (against one million)', () => {
+        const res = againstOneMillion('hash')
+        expect(res).toBe(false)
+    });
 });
 
 describe('Testing digits', () => {
@@ -49,5 +54,10 @@ describe('Testing digits', () => {
         expect(kimp.digits()).toMatch(/^[0-9]+$/g)
         expect(kimp.digits().length).toBe(8)
         expect(kimp.digits(50).length).toBe(50)
+    });
+
+    test ('Check if unique (against one million)', () => {
+        const res = againstOneMillion('digits')
+        expect(res).toBe(false)
     });
 });
