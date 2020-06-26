@@ -9,21 +9,17 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run:
-                name: Clear cache
-                command: npm cache clean --force
             - restore_cache:
                 keys:
-                  - v1-npm-deps-{{ checksum "package-lock.json" }}
-                  - v1-npm-deps-
+                  - dependency-cache-v2-{{ checksum "package-lock.json" }}
+                  - dependency-cache-v2-
             - run:
                 name: Install dependencies
                 command: npm i
             - save_cache:
-                key: v1-npm-deps-{{ checksum "package-lock.json" }}
+                key: dependency-cache-v2-{{ checksum "package-lock.json" }}
                 paths:
                   - ./node_modules
-                  - ./functions/node_modules
             - run:
                 name: Jest
                 command: npm test
