@@ -9,6 +9,9 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
+            - run:
+                name: Clear cache
+                command: npm cache clean --force
             - restore_cache:
                 keys:
                   - v1-npm-deps-{{ checksum "package-lock.json" }}
