@@ -12,13 +12,15 @@ Object.defineProperty(global.self, 'crypto', {
     }
 });
 
-describe('Testing UUID', () => {
+describe('Testing v4', () => {
     test ('Test length', () => {
         expect(kimp.v4().split('-').length).toBe(5)
+        expect(kimp.v4().length).toBe(36)
     });
 
-    test ('Array check', () => {
-        expect(kimp.v4().split('-').length).toBe(5)
+    test('RFC 4122 compliant', () => {
+        expect(kimp.v4().split('')[14]).toBe('4')
+        expect(/[a-b8-9]/g.test(kimp.v4().split('')[19])).toBe(true)
     });
 
     test('Valid chars', () => {
@@ -52,5 +54,14 @@ describe('Testing Hash', () => {
 
     test('Valid chars', () => {
         expect(/^[a-zA-Z0-9]+$/g.test(kimp.hash(100))).toBe(true)
+    });
+});
+
+describe('Testing digits', () => {
+    test('Check format', () => {
+        expect(typeof parseInt(kimp.digits())).toBe('number')
+        expect(typeof kimp.digits()).toBe('string')
+        expect(kimp.digits().length).toBe(8)
+        expect(kimp.digits(50).length).toBe(50)
     });
 });

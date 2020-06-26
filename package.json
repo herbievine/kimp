@@ -1,5 +1,5 @@
 {
-  "name": "@herbievine/kimp",
+  "name": "kimp",
   "version": "0.3.0",
   "description": "Lightweight v4 UUID (RFC4122 compliant)",
   "main": "kimp.js",
