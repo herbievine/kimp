@@ -1,6 +1,10 @@
 
 # kimp  
 
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://nodei.co/npm/kimp.png"> 
+</a>
+
 Easy to use, ID generator. Supports 3 types:
 
  - UUID Version 4 (RFC4122 compliant)
