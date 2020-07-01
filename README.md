@@ -5,6 +5,18 @@
 <img src="https://nodei.co/npm/kimp.png"> 
 </a>
 
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://img.shields.io/npm/v/kimp?label=version&color=green"> 
+</a>
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://img.shields.io/npm/dt/kimp?color=blue"> 
+</a>
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://img.shields.io/bundlephobia/min/kimp"> 
+</a>
+
+`ES6 modules only`
+
 Easy to use, ID generator. Supports 3 types:
 
  - UUID Version 4 (RFC4122 compliant)
@@ -49,4 +61,3 @@ Both `hash()` and `digits()` support a limit (:number)
 kimp.digits(20)
 // 71649164018462941631
 ```
-v1.0.0
