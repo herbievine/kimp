@@ -4,13 +4,15 @@
 <a href="https://www.npmjs.com/package/kimp" target="_BLANK">
 <img src="https://nodei.co/npm/kimp.png"> 
 </a>
-
+<br>
 <a href="https://www.npmjs.com/package/kimp" target="_BLANK">
 <img src="https://img.shields.io/npm/v/kimp?label=version&color=green"> 
 </a>
+
 <a href="https://www.npmjs.com/package/kimp" target="_BLANK">
 <img src="https://img.shields.io/npm/dt/kimp?color=blue"> 
 </a>
+
 <a href="https://www.npmjs.com/package/kimp" target="_BLANK">
 <img src="https://img.shields.io/bundlephobia/min/kimp"> 
 </a>
