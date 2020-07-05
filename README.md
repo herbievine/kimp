@@ -1,9 +1,8 @@
-
 # kimp  
 
-<<<<<<< HEAD
 Easy to use, ID generator. Supports 4 types:
-=======
+
+
 <a href="https://www.npmjs.com/package/kimp" target="_BLANK">
 <img src="https://nodei.co/npm/kimp.png"> 
 </a>
@@ -20,10 +19,10 @@ Easy to use, ID generator. Supports 4 types:
 <img src="https://img.shields.io/bundlephobia/min/kimp"> 
 </a>
 
-`ES6 modules only`
+ - Support for Node and ES6 modules
+ - Fast, lightweight and easy to use
 
 Easy to use, ID generator. Supports 3 types:
->>>>>>> a8ed2257e84e817c4ca9fa8237a894ba1a864c63
 
  - UUID Version 4 (RFC4122 compliant)
  - Hash
