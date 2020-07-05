@@ -1,5 +1,2 @@
-# IDE
-/.idea
-
-# NODE
-/node_modules
+dist
+node_modules

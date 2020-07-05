@@ -1,6 +1,8 @@
-import { DIGITS } from "../utils/constants";
+import { DIGITS } from "../utils/constants/digits";
 
-const digits = (limit = 8) => {
+type Limit = Number;
+
+const digits = (limit: Limit = 8) => {
     let res = '';
 
     for (let i = 0; i < limit; ++i) {

@@ -1,4 +1,0 @@
-const CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-const DIGITS = '0123456789';
-
-export { CHARACTERS, DIGITS }

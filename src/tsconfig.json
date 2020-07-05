@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node",
+        "target": "ES2015",
+        "allowJs": true,
+        "module": "ES2015",
+        "lib": [
+            "ES2015",
+            "DOM"
+        ],
+        "removeComments": true,
+        "strict": true,
+        "noEmitOnError": false,
+        "sourceMap": false,
+        "declaration": false,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "../build",
+        "strictNullChecks": false
+    },
+    "files": [
+        "kimp.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

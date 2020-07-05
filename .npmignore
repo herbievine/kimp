@@ -1,4 +1,7 @@
-kimp.test.js
-jest.config.js
-babel.config.js
-.idea
+src
+node_modules
+build
+config
+rollup.config.js
+package-lock.json
+.gitignore

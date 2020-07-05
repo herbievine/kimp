@@ -1,11 +1,12 @@
 
 # kimp  
 
-Easy to use, ID generator. Supports 3 types:
+Easy to use, ID generator. Supports 4 types:
 
  - UUID Version 4 (RFC4122 compliant)
  - Hash
- - Digit Hash  
+ - Digit Hash
+ - The Classic
   
 #### Installation  
   
@@ -24,12 +25,12 @@ console.log(kimp.v4())
   
 #### Types  
   
-  UUID (or GUID):
+UUID (or GUID):
 ```    
 kimp.v4()  
 // 455a5a0b-fb8f-47d6-977f-937375b842d4  
 ```  
-  Hash: 
+Hash: 
 ```   
 kimp.hash()  
 // eFRd9nEjjV9vz4r8R26JGdrQ4UwTcQADCQdM9VcX  
@@ -38,6 +39,15 @@ Digits:
 ```
 kimp.digits()
 // 72260183
+```
+Classic:
+```
+kimp.classic()
+// yen5bew1-lean-hexagon-wrg9tpex7mii
+
+const a = { start: 'hello', end: 'nooooo' }
+kimp.classic(a)
+// hello-tiresome-desire-nooooo
 ```
 
 Both `hash()` and `digits()` support a limit (:number)
