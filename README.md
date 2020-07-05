@@ -1,7 +1,29 @@
 
 # kimp  
 
+<<<<<<< HEAD
 Easy to use, ID generator. Supports 4 types:
+=======
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://nodei.co/npm/kimp.png"> 
+</a>
+<br>
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://img.shields.io/npm/v/kimp?label=version&color=green"> 
+</a>
+
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://img.shields.io/npm/dt/kimp?color=blue"> 
+</a>
+
+<a href="https://www.npmjs.com/package/kimp" target="_BLANK">
+<img src="https://img.shields.io/bundlephobia/min/kimp"> 
+</a>
+
+`ES6 modules only`
+
+Easy to use, ID generator. Supports 3 types:
+>>>>>>> a8ed2257e84e817c4ca9fa8237a894ba1a864c63
 
  - UUID Version 4 (RFC4122 compliant)
  - Hash
@@ -55,4 +77,3 @@ Both `hash()` and `digits()` support a limit (:number)
 kimp.digits(20)
 // 71649164018462941631
 ```
-v1.0.0
