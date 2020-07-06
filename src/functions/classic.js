@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.classic = void 0;
-const nouns_1 = require("../utils/constants/nouns");
-const adjectives_1 = require("../utils/constants/adjectives");
+const nouns_1 = require("../constants/nouns");
+const adjectives_1 = require("../constants/adjectives");
 const hash_1 = require("./hash");
 const classic = (options) => {
     var _a, _b;

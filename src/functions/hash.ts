@@ -1,8 +1,8 @@
-import { CHARACTERS } from "../utils/constants/characters";
+import { CHARACTERS } from "../constants/characters";
 
 type Limit = Number;
 
-const hash = (limit: Limit = 40) => {
+const hash = (limit: Limit = 8) => {
     let res = '';
 
     for (let i = 0; i < limit; ++i) {

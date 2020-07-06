@@ -1,5 +1,5 @@
-import { NOUNS } from '../utils/constants/nouns';
-import { ADJECTIVES } from '../utils/constants/adjectives';
+import { NOUNS } from '../constants/nouns';
+import { ADJECTIVES } from '../constants/adjectives';
 import { hash } from './hash';
 
 type Id = string

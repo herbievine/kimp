@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.digits = void 0;
-const digits_1 = require("../utils/constants/digits");
+const digits_1 = require("../constants/digits");
 const digits = (limit = 8) => {
     let res = '';
     for (let i = 0; i < limit; ++i) {

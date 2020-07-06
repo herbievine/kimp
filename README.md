@@ -1,8 +1,5 @@
 # kimp  
 
-Easy to use, ID generator. Supports 4 types:
-
-
 <a href="https://www.npmjs.com/package/kimp" target="_BLANK">
 <img src="https://nodei.co/npm/kimp.png"> 
 </a>
@@ -22,11 +19,12 @@ Easy to use, ID generator. Supports 4 types:
  - Support for Node and ES6 modules
  - Fast, lightweight and easy to use
 
-Easy to use, ID generator. Supports 3 types:
+Easy to use, ID generator. Supports 5 methods:
 
  - UUID Version 4 (RFC4122 compliant)
  - Hash
- - Digit Hash
+ - Digits
+ - Symbols
  - The Classic
   
 #### Installation  
@@ -53,13 +51,18 @@ kimp.v4()
 ```  
 Hash: 
 ```   
-kimp.hash()  
-// eFRd9nEjjV9vz4r8R26JGdrQ4UwTcQADCQdM9VcX  
+kimp.hash(limit: number)  
+// eF7d9nEj
 ```
 Digits:
 ```
-kimp.digits()
+kimp.digits(limit: number)
 // 72260183
+```
+Symbols:
+```
+kimp.symbols(limit: number)
+// @B3j2$x&
 ```
 Classic:
 ```
@@ -69,10 +72,4 @@ kimp.classic()
 const a = { start: 'hello', end: 'nooooo' }
 kimp.classic(a)
 // hello-tiresome-desire-nooooo
-```
-
-Both `hash()` and `digits()` support a limit (:number)
-```
-kimp.digits(20)
-// 71649164018462941631
 ```

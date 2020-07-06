@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.hash = void 0;
-const characters_1 = require("../utils/constants/characters");
+const characters_1 = require("../constants/characters");
 const hash = (limit = 40) => {
     let res = '';
     for (let i = 0; i < limit; ++i) {

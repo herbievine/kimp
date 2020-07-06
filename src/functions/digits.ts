@@ -1,4 +1,4 @@
-import { DIGITS } from "../utils/constants/digits";
+import { DIGITS } from "../constants/digits";
 
 type Limit = Number;
 
