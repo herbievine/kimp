@@ -3,6 +3,7 @@ src
 node_modules
 build
 config
+tests
 rollup.config.js
 package-lock.json
 .gitignore

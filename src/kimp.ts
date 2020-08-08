@@ -5,25 +5,19 @@
  * See LICENSE in root directory for full license.
  */
 
-import { classic } from "./functions/classic";
-import { v4 } from "./functions/v4";
-import { hash } from "./functions/hash";
-import { digits } from "./functions/digits";
-import { symbols } from "./functions/symbols";
+import { v4 } from "./functions/generator/v4";
+import { classic } from "./functions/generator/classic";
+import { characters } from "./functions/generator/characters";
+import { digits } from "./functions/generator/digits";
+import { hash } from "./functions/generator/hash";
+import { symbols } from "./functions/generator/symbols";
 
-type Kimp = {
-    classic: Function
-    v4: Function
-    hash: Function
-    digits: Function
-    symbols: Function
-};
-
-const kimp: Kimp = {
-    classic,
+const kimp = {
     v4,
-    hash,
+    classic,
+    characters,
     digits,
+    hash,
     symbols
 };
 

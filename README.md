@@ -51,7 +51,7 @@ kimp.v4()
 ```  
 Hash: 
 ```   
-kimp.hash(limit: number)  
+kimp.characters(limit: number)  
 // eF7d9nEj
 ```
 Digits:

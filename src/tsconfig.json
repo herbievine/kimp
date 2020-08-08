@@ -4,16 +4,13 @@
         "target": "ES2015",
         "allowJs": true,
         "module": "ES2015",
-        "lib": [
-            "ES2015",
-            "DOM"
-        ],
+        "lib": [ "ES2015", "DOM" ],
         "removeComments": true,
         "strict": true,
         "noEmitOnError": false,
         "sourceMap": true,
         "declaration": true,
-        "declarationDir": "../build/types",
+        "declarationDir": "../types",
         "allowSyntheticDefaultImports": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,

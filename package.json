@@ -1,10 +1,11 @@
 {
     "name": "kimp",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Lightweight ID generator",
     "sideEffects": false,
     "main": "dist/main/kimp.js",
     "module": "dist/module/kimp.js",
+    "types": "types",
     "scripts": {
         "build": "npm run build:ts && npm run build:roll && npm run test",
         "build:ts": "tsc -p ./src/tsconfig.json",

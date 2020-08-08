@@ -7,7 +7,7 @@ const block = (name, format, plugins) => {
     return {
         input: 'build/kimp.js',
         output: {
-            file: `dist/${name}/kimp.js`,
+            dir: `dist/${name}`,
             format: format,
             strict: false,
             name: name,
